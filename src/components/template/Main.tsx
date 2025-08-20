@@ -17,7 +17,7 @@ function Main() {
         <h1 className="mx-auto w-max text-4xl font-bold text-white">
           تولد هوراد
         </h1>
-        {/* textDemo  */}
+        {/* textDemo rt  */}
         <TextDemo />
 
         <DateText />
