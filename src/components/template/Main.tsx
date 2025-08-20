@@ -23,7 +23,7 @@ function Main() {
         <DateText />
       </div>
       <Image
-        src="/image/gh.png"
+        src="/image/fgh.png"
         alt="hero"
         width={400}
         height={400}
