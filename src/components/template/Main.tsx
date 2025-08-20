@@ -6,6 +6,7 @@ import DateText from "@/components/module/DateText";
 import { FaLocationDot } from "react-icons/fa6";
 import animationData from "@/lottie/Confetti.json"; // فایل JSON انیمیشن
 import dynamic from "next/dynamic";
+import TextDemo from "../module/TextDemo";
 
 function Main() {
   const Lottie = dynamic(() => import("react-lottie-player"), { ssr: false });
@@ -14,18 +15,20 @@ function Main() {
       <Sound />
       <div>
         <h1 className="mx-auto w-max text-4xl font-bold text-white">
-          تولد ماهور
+          تولد هوراد
         </h1>
+        {/* textDemo  */}
+        <TextDemo />
 
         <DateText />
       </div>
       <Image
-        src="/image/child.png"
+        src="/image/gh.png"
         alt="hero"
         width={400}
         height={400}
         priority
-        className="animate-slide-down mx-auto w-[18rem] select-none will-change-transform"
+        className="mx-auto mb-5 w-[18rem] animate-slide-down select-none will-change-transform"
       />
       <div className="absolute top-16">
         <Lottie
@@ -43,6 +46,7 @@ function Main() {
         <div className="flex flex-col items-center justify-center gap-1">
           <span>میدان شیخ زاهد،ابتدای کمربندی</span>
           <span>ساختمان پلاس سالن آدم و حوا</span>
+          <span> از ساعت 20:00 الی 00:00 </span>
         </div>
         <span>
           <FaLocationDot className="text-2xl" />

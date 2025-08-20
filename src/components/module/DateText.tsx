@@ -15,7 +15,7 @@ export default function DateBanner() {
       </motion.span>
 
       {/* عدد ثابت */}
-      <span className="text-7xl font-bold text-orange-600">2</span>
+      <span className="text-7xl font-bold text-orange-600">4</span>
 
       {/* سه شنبه از راست */}
       <motion.span
