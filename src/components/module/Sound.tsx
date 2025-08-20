@@ -25,8 +25,7 @@ function Sound() {
   return (
     <div className="ml-4 mt-4">
       {/* موزیک */}
-      <audio ref={audioRef} src="/music/hbd
-      .mp3" loop autoPlay muted />
+      <audio ref={audioRef} src="/music/hbd.mp3" loop autoPlay muted />
 
       {/* دکمه */}
       <button
