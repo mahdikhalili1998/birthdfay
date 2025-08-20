@@ -28,7 +28,7 @@ function Main() {
         width={400}
         height={400}
         priority
-        className="mx-auto mb-5 w-[18rem] animate-slide-down select-none will-change-transform"
+        className="mx-auto mb-5 mt-20 w-[18rem] animate-slide-down select-none will-change-transform"
       />
       <div className="absolute top-16">
         <Lottie
