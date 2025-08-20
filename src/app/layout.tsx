@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa">
-      <body className="h-screen w-full animate-gradient-x bg-gradient-to-r from-purple-400 via-purple-600 to-purple-800 bg-[length:200%_200%] font-iransans">
+      <body className="h-screen w-full animate-gradient-x bg-gradient-to-r from-slate-400 via-slate-600 to-slate-800 bg-[length:200%_200%] font-iransans">
         {children}
       </body>
     </html>
